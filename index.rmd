@@ -14,5 +14,7 @@ require(leaflet)
 require(dplyr)
 df <- data.frame(lat = -22.9553086, lng = -43.1910758)
 
-df  %>% leaflet() %>% addTiles() %>% addMarkers(popup = 'My place') %>% setView(lat = -22.9553086, lng = -43.1910758,zoom = 15)
+map <- df  %>% leaflet() %>% addTiles() %>% addMarkers(popup = 'My place') %>% setView(lat = -22.9553086, lng = -43.1910758,zoom = 15)
+
+map
 ```
