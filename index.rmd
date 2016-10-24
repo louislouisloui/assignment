@@ -1,6 +1,6 @@
 ---
 title: "Week 2 assignment"
-output: ioslides_presentation
+output: html_presentation
 ---
 
 ## Leaflet map
