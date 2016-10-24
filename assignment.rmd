@@ -1,0 +1,18 @@
+---
+title: "Week 2 assignment"
+output: ioslides_presentation
+---
+
+## Leaflet map
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+``` {r, echo = FALSE, eval = TRUE, message = FALSE}
+require(leaflet)
+require(dplyr)
+df <- data.frame(lat = -22.9553086, lng = -43.1910758)
+
+df  %>% leaflet() %>% addTiles() %>% addMarkers(popup = 'My place')
+```
