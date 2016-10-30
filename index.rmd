@@ -8,6 +8,8 @@ output: html_presentation
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+Please zoom out to step back and see the marker. It should be pointing on Rio.
+Though the centering I ,ade works perfectly in local, it does not work when it is hosted.
 
 ``` {r, echo = FALSE, eval = TRUE, message = FALSE}
 require(leaflet)
