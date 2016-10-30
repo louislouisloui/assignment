@@ -1,6 +1,10 @@
 ---
 title: "Week 2 assignment"
-output: html_presentation
+output: 
+  ioslides_presentation:
+  widescreen: true
+author: Louis Duverger
+date: Octobre 24th, 2016
 ---
 
 ## Leaflet map
